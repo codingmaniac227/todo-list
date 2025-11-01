@@ -1,20 +1,48 @@
-<<<<<<< HEAD
-# React + Vite
+# Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive Todo List application built with HTML, CSS, and JavaScript.  
+This app allows users to add, delete, and mark tasks as complete — helping you stay organized and productive.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Add and remove tasks easily
+- Mark tasks as completed
+- Persistent data using local storage
+- Clean and responsive interface
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
 
-## Expanding the ESLint configuration
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/codingmaniac227/todo-list.git
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-"# todo-list" 
->>>>>>> a8ef88fbb4c4d02304a6c51f16f25d7a26cbed22
+2. **Navigate into the project directory**
+   ```bash
+   cd todo-list
+   ```
+
+3. **Install dependencies (if applicable)**
+   ```bash
+   npm install
+   ```
+
+---
+
+## Run the Development Server
+
+If you’re using a bundler like **Vite** or **React**:
+```bash
+npm run dev
+```
+
+Otherwise, simply open `index.html` in your browser.
+
+---
+
+## Author
+Created by [Marquise Davis](https://github.com/codingmaniac227)  
+Feel free to fork and improve this project!
